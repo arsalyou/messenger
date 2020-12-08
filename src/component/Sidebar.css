@@ -1,0 +1,30 @@
+.sidebar{
+    flex: 0.35;
+    height: 100vh;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: rgb(221, 210, 210);
+    border-right: 1px solid lightgray;
+}
+
+.sidebar_header{
+    display: flex;
+    align-items:center ;
+}
+
+.sidebar_header > input{
+    outline: none;
+    border: none;
+}
+
+.sidebar_avatar{
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.search_area{
+    background: gray;
+    
+}
