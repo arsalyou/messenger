@@ -27,3 +27,7 @@
     right: 0px;
     color: gray;
 }
+
+.sidebar_chats{
+    overflow: scroll;
+}

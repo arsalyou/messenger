@@ -1,5 +1,5 @@
 .sidebar{
-    flex: 0.35;
+    flex: 0.25;
     height: 100vh;
     display: flex;
     
@@ -37,8 +37,18 @@
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
+    
     color: gray;
 
     
+}
+
+
+.sidebar_chats{
+    overflow: scroll;
+}
+
+.sidebar_chats::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
 }
