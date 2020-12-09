@@ -1,10 +1,20 @@
 .login{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center; 
+    
 }
 
 .login > button{
+    display: flex;
     width: 400px;
-    background-color: powderblue;
+    background-color: rgb(121, 159, 241);
     font-weight: 700;
-    color: blueviolet;
+    color:white;
+    margin-top: 100px;
+    outline: none;
+    border: none;
+
+    justify-content: center;
 }
