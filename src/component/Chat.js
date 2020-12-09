@@ -5,7 +5,7 @@ import MicNoneIcon from '@material-ui/icons/MicNone';
 
 function Chat(props) {
 
-    const [input, setInput] = useState('')
+    const [input, setInput] = useState('');
 
     const sendMessage = (e) => {
         e.preventDefault();

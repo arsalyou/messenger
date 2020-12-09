@@ -18,7 +18,7 @@ const firebaseApp = firebase.initializeApp(firebaseConfig);
 // Option 1: Access Firebase services via the defaultProject variable
 const auth = firebaseApp.auth();
 const db = firebaseApp.firestore();
-const provider = new firebase.auth
+const provider = new firebase.auth.GoogleAuthProvider;
 
 export default db;
 export {auth, provider};

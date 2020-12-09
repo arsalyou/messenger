@@ -1,0 +1,10 @@
+.login{
+
+}
+
+.login > button{
+    width: 400px;
+    background-color: powderblue;
+    font-weight: 700;
+    color: blueviolet;
+}
