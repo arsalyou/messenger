@@ -1,4 +1,30 @@
 .message{
     display: flex;
-    
+    align-items: center;
+    margin: 15px;  /* outside component*/
+    width: fit-content; /* wrap content*/
+    justify-content: space-between;
+    position: relative;
+
+
+
+
+}
+
+.message > p {
+    background-color: aliceblue;
+    font-size: medium;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-right: auto;
+}
+
+.message > small {
+    color: gray;
+    position: absolute;
+    font-size: 8px;
+    bottom: -5px;
+    right: 0;
+
 }
