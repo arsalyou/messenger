@@ -2,6 +2,7 @@ import { IconButton } from '@material-ui/core';
 import React, { useState } from 'react';
 import './Chat.css'
 import MicNoneIcon from '@material-ui/icons/MicNone';
+import Message from './Message';
 
 function Chat(props) {
 
@@ -35,37 +36,10 @@ function Chat(props) {
             </div>
             {/*Chat body*/}
             <div className="chat_messages">
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
-                <h2>dsdas</h2>
+                <Message></Message>
                 
+            
+               
 
             </div>
 
