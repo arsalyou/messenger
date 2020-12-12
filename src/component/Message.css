@@ -28,3 +28,25 @@
     right: 0;
 
 }
+
+.message_sender{
+    margin-left: auto;
+   
+}
+
+.avatar{
+    order:0;
+ 
+}
+
+.message_sender >  .avatar{
+    order:1;
+    margin: 10px;
+}
+
+.message_sender > p {
+    background-color: #3cabfa;
+    color: white;
+    order:0;
+
+}

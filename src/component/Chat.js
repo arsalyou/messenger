@@ -8,6 +8,7 @@ import {selectUser} from '../features/userSlice'
 import { useSelector } from 'react-redux';
 import db from '../firebase';
 import firebase from 'firebase'
+import FlipMove from 'react-flip-move'
 
 function Chat(props) {
 
@@ -67,8 +68,8 @@ function Chat(props) {
                 {msgs.map(({id, data})=>{
                    
                         
-                     return <Message key={id} contents={data}></Message>
-                    
+                     return  <Message key={id} contents={data}></Message>
+                           
                     
 
                 })}
@@ -78,7 +79,7 @@ function Chat(props) {
             {/*Chat input*/}
             <div className="chat_input">
                 <form>
-                    <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="message"></input>
+                    <input value={input} onChange={(e) => setInput(e.target.value)} placeholder="message" disabled={chatId ? false: true}></input>
                     <button onClick={sendMessage}>Send</button>
                     
                    
