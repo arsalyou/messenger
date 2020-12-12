@@ -19,6 +19,7 @@ function Chat(props) {
 
     useEffect( ()=>{
         if(chatId){
+            console.log(chatId);
             db.collection("chats").doc(chatId).collection("messages").orderBy('timestamp', 'desc')
             .onSnapshot(snapshot => 
                 setMsgs(
@@ -59,22 +60,19 @@ function Chat(props) {
 
                 <strong>Details</strong>
 
-
-
-
-
             </div>
             {/*Chat body*/}
             <div className="chat_messages">
-                {msgs.map((id, data)=>{
-                     <Message key={id} contents={data}></Message>
+                
+                {msgs.map(({id, data})=>{
+                   
+                        
+                     return <Message key={id} contents={data}></Message>
+                    
+                    
 
                 })}
                
-                
-            
-               
-
             </div>
 
             {/*Chat input*/}
